@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     ;
+}
+
+.nav{
+    background-color: #181818	;
+    height: 8vh;
+    
+}
+#logo{
+    background-color: #181818	;
+    float: left;
+    width: 47%;
+    padding: 1.5%;
+    color: white;
+    height: 2vh;
+}
+
+#menu{
+background-color: #181818	;
+float: right;
+width: 47%;
+padding: 1.5%;
+text-align: center;
+height: 2vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 3%;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.main_body{
+    background-color: #202020	;	
+    height: 200vh;
+    margin-top: 0vh;
+    position: relative;
+}
+
+
+.about{
+    background-color: #080808;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    left: 10%;
+    top: 3%;
+    box-shadow: 0px 20px 30px; 
+}
+
+.about p{
+    color: white;
+}
+
+#content-header{
+    color: white;
+    
+    position: absolute;
+}
+
+#content{
+    color: white;
+    
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    top: 10vh;
+    left:10%;
+}
+
+#content p{
+    padding-top: 4%;
+    color: white;
+}
+
+#content h1{
+    color: white;
+}
+
+#work-button{
+    position: absolute;
+    top: 26vh;
+    left: 10%;
+    background-color: #C8C8C8;
+    padding: 1.5%;
+    border-radius: 25%;
+    border: none;
+    text-align: center;
+}
+
+
+#content-header{
+    position: absolute;
+    width: 25vw;
+    height: 50vh;
+    left: 58%;
+    top: 10vh;
+    
+    
+}
+
+.image{
+    position: absolute;
+    top: 6vh;
+    /* clip-path: circle(); */
+    border-radius: 50%;
+    left: 7%;
+    height: 40vh;
+    border: 3px solid white;
+}
+
+#find-me{
+
+position: absolute;
+width: 30vw;
+left: 10%;
+top: 70vh;
+}
+
+
+
+#skills{
+    position: absolute;
+    background-color: #707070;
+    width: 80vw;
+    height: 80vh;
+    top:110vh;
+    left: 10%;
+    border-radius: 4px;
+    box-shadow: 20px 20px 20px;
+
+}
+
+#skill-set{
+    position: absolute;
+    width: 20vw;
+    height: 6vh ;
+    background-color: #202020;
+    left: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6vh;
+    top: 2vh;
+    border-radius: 4em;
+    color: white;
+    transform: translate(-50%, -0%);
+    
+
+}
