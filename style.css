@@ -5,21 +5,21 @@
 }
 
 .nav{
-    background-color: #181818	;
+    background-color: #D8D8D8	;
     height: 8vh;
     
 }
 #logo{
-    background-color: #181818	;
+    background-color: #D8D8D8	;
     float: left;
     width: 47%;
     padding: 1.5%;
-    color: white;
+    color: black;
     height: 2vh;
 }
 
 #menu{
-background-color: #181818	;
+background-color: #D8D8D8	;
 float: right;
 width: 47%;
 padding: 1.5%;
@@ -38,11 +38,11 @@ li{
 
 #menu a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .main_body{
-    background-color: #202020	;	
+    background-color: #D8D8D8	;	
     height: 200vh;
     margin-top: 0vh;
     position: relative;
@@ -132,29 +132,152 @@ top: 70vh;
 
 #skills{
     position: absolute;
-    background-color: #707070;
+    background-color: #F5F5F5	;
     width: 80vw;
     height: 80vh;
     top:110vh;
     left: 10%;
     border-radius: 4px;
-    box-shadow: 20px 20px 20px;
+    box-shadow: 0px 20px 30px;
 
 }
 
 #skill-set{
     position: absolute;
-    width: 20vw;
-    height: 6vh ;
+    width: 35vw;
+    height: 7vh ;
     background-color: #202020;
     left: 50%;
     text-align: center;
     vertical-align: middle;
-    line-height: 6vh;
+    line-height: 3vh; 
     top: 2vh;
     border-radius: 4em;
     color: white;
-    transform: translate(-50%, -0%);
-    
+    transform: translate(-50%, -0%);   
+    padding-top: 0.5%;
+}
 
+
+
+#skill_levels{
+    position: absolute;
+    width: 64vw;
+    height: 55vh;
+    /* background-color: red; */
+    top: 15vh;
+    left: 8%;   
+    
+}
+ .container1{
+    position: absolute;
+    
+    width: 80%;
+    height: 12vh;
+    top: 4vh;
+    line-height: 4vh;
+    left: 2%;
+    
+}
+
+
+.html{
+    width: 50%;
+    height: 6vh;
+    background-color: green;
+    vertical-align: middle;
+    line-height: 6vh;
+    text-align: right;
+    border-radius: 8px;
+    
+}  
+.container2{
+    position: absolute;
+    
+    width: 80%;
+    height: 12vh;
+    top: 14vh;
+    line-height: 4vh;
+    left: 2%;
+    
+}
+
+
+.css{
+    width: 40%;
+    height: 6vh;
+    background-color: rgb(61, 22, 71);
+    vertical-align: middle;
+    line-height: 6vh;
+    text-align: right;
+    border-radius: 8px;
+} 
+
+.container3{
+    position: absolute;
+    
+    width: 80%;
+    height: 12vh;
+    top: 24vh;
+    line-height: 4vh;
+    left: 2%;
+    
+}
+
+
+.js{
+    width: 20%;
+    height: 6vh;
+    background-color: rgb(61, 212, 189);
+    vertical-align: middle;
+    line-height: 6vh;
+    text-align: right;
+    border-radius: 8px;
+} 
+
+
+
+.container4{
+    position: absolute;
+    
+    width: 80%;
+    height: 12vh;
+    top: 34vh;
+    line-height: 4vh;
+    left: 2%;
+    
+}
+
+
+.php{
+    width: 1%;
+    height: 6vh;
+    background-color: rgb(160, 212, 0);
+    vertical-align: middle;
+    line-height: 6vh;
+    text-align: right;
+    border-radius: 8px;
+}
+
+
+.container5{
+    position: absolute;
+    
+    width: 80%;
+    height: 12vh;
+    top: 44vh;
+    line-height: 4vh;
+    left: 2%;
+    
+}
+
+
+.node{
+    width: 10%;
+    height: 6vh;
+    background-color: rgb(255, 124, 255);
+    vertical-align: middle;
+    line-height: 6vh;
+    text-align: right;
+    border-radius: 8px;
 }
