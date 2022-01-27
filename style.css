@@ -27,11 +27,11 @@ text-align: center;
 height: 2vh;
 }
 
-ul{
+#menu ul{
     list-style-type: none;
 }
 
-li{
+#menu li{
     display: inline;
     padding: 3%;
 }
@@ -43,13 +43,13 @@ li{
 
 .main_body{
     background-color: #D8D8D8	;	
-    height: 200vh;
+    height: 420vh;
     margin-top: 0vh;
     position: relative;
 }
 
 
-.about{
+#about{
     background-color: #080808;
     width: 80vw;
     height: 80vh;
@@ -59,7 +59,7 @@ li{
     box-shadow: 0px 20px 30px; 
 }
 
-.about p{
+#about p{
     color: white;
 }
 
@@ -280,4 +280,232 @@ top: 70vh;
     line-height: 6vh;
     text-align: right;
     border-radius: 8px;
+}
+
+
+#projects{
+    position: absolute;
+    background-color: #F5F5F5	;
+    width: 100%;
+    height: 100vh;
+    top:210vh;
+    left: 0%;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px;
+    background-color: #080808;
+}
+
+.works-heading{
+    position: absolute;
+    width: 20vw;
+    height: 5vh ;
+    background-color: #C8C8C8;
+    left: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vh; 
+    top: 2vh;
+    border-radius: 4em;
+    color: black;
+    transform: translate(-50%, -0%);   
+    padding-top: 0.5%;
+}
+
+.works{
+    position: absolute;
+    width: 90vw;
+    height: 80vh;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#education{
+    position: absolute;
+    background-color: #F5F5F5	;
+    width: 100%;
+    height: 90vh;
+    top:330vh;
+    left: 0%;
+    border-radius: 4px;
+    box-shadow: 0px 20px 30px;
+    background-color: rgb(61, 212, 189);
+
+}
+
+.education-heading{
+    position: absolute;
+    width: 20vw;
+    height: 5vh ;
+    background-color: #C8C8C8;
+    left: 50%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 5vh; 
+    top: 2vh;
+    border-radius: 4em;
+    color: black;
+    transform: translate(-50%, -0%);   
+    padding-top: 0.5%;
+}
+
+
+.knowledge-container{
+    position: absolute;
+    width: 90vw;
+    height: 80vh;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.knowledge{
+position: absolute;
+width: 40%;
+height: 50vh;
+background-color: white;
+left: 5%;
+top: 10%;
+border-radius: 8px;
+
+}
+
+.experience{
+    position: absolute;
+width: 40%;
+height: 50vh;
+background-color: white;
+left: 55%;
+top: 10%;
+border-radius: 8px;
+
+}
+
+.education{
+    padding: 2%;
+    padding-left: 4%;
+}
+
+.work-experience{
+    padding: 2%;
+    padding-left: 4%;
+}
+
+#education p{
+    font-style: italic;
+}
+
+#footer{
+    position: absolute;
+    background-color: #040417;
+    width: 100%;
+    height: 100vh;
+}
+
+
+#contact-form{
+    position: absolute;
+   font-size: 17px;
+    width: 40%;
+    color: white;
+    left: 60%;
+    top: 30vh;
+}
+
+#contact-form form input[type=text], textarea {
+    width: 80%;
+    height: 4vh;
+    border-radius: 8px;
+    margin: 1%;
+}
+
+
+#contact-form form input[type=email], textarea {
+    width: 80%;
+    height: 4vh;
+    border-radius: 8px;
+    margin: 1%;
+}
+
+
+
+#contact-form form {
+font-size: 1em;
+}
+
+#subject{
+    height: 20vh;
+    width:80%;
+    margin-left:1%;
+    border-radius: 8px;
+}
+
+
+#contact-form form input[type=submit], textarea {
+    
+    width: 30%;
+    height: 4vh;
+    border-radius: 8px;
+    margin-left: 30%;
+    background-color: white;
+    
+}
+
+
+
+
+#footer-menu{
+    position: absolute;
+    
+    
+    width: 15%;
+    height: 20vh;
+    top: 30vh;
+    left: 30%;
+    
+}
+
+#footer-menu li{
+    padding: 3%;
+    
+}
+#footer-menu ul{
+    list-style-type: none;
+    padding-left: 60%;
+}
+
+#footer-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+#contact{
+    position: absolute;
+    width: 30%;
+    height: 30vh;
+    
+    top: 30vh;
+
+}
+
+
+#contact-content{
+    position: absolute;
+    color: white;
+    width: 85%;
+    height: 20vh;
+    left :15%;
+    line-height: 1.5em;
+}
+
+#copy{
+    position: absolute;
+    top: 60vh;
+    left: 5%;
+    color: white;
+    /* background-color: green; */
 }

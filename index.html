@@ -19,10 +19,12 @@
 
             <div id="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Work</a></li>
-                    <li><a href="#">Address</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">My Work</a></li>
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#educations">Experience</a></li>
+                    <li><a href="#footers">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -33,7 +35,7 @@
 
         <div class="main_body" id="main_body">
             <section class="main-body">
-                <div class="about">
+                <div id="about">
                     <div id="content-header">
                         <img src="https://img.freepik.com/free-icon/important-person_318-10744.jpg?size=338&ext=jpg"
                             alt="profile-pictuer" class="image">
@@ -63,49 +65,144 @@
                     </div>
 
 
-                    <div id="skill_levels" >
-                    <div class="container1">
-                        <p>HTML</p>
-                        <div class="html"><span>50%</span></div>
+                    <div id="skill_levels">
+                        <div class="container1">
+                            <p>HTML</p>
+                            <div class="html"><span>50%</span></div>
+                        </div>
+
+
+                        <div class="container2">
+                            <p>CSS</p>
+                            <div class="skills css">40%</div>
+                        </div>
+
+
+                        <div class="container3">
+                            <p>JavaScript</p>
+                            <div class="skills js">20%</div>
+                        </div>
+
+
+                        <div class="container4  ">
+                            <p>PHP</p>
+                            <div class="skills php">1%</div>
+                        </div>
+
+
+                        <div class="container5  ">
+                            <p>NodeJs</p>
+                            <div class="skills node">10%</div>
+                        </div>
+
                     </div>
-
-                     
-                    <div class="container2">
-                        <p>CSS</p>
-                        <div class="skills css">40%</div>
-                    </div>
-
-                   
-                    <div class="container3">
-                        <p>JavaScript</p>
-                        <div class="skills js">20%</div>
-                    </div>
-
-                    
-                    <div class="container4  ">
-                        <p>PHP</p>
-                        <div class="skills php">1%</div>
-                    </div>   
-
-
-                    <div class="container5  ">
-                        <p>NodeJs</p>
-                        <div class="skills node">10%</div>
-                    </div>
-
-                </div>
 
                 </div>
             </section>
 
-            <div id="education"></div>
-            <div id="projects"></div>
+            <section class="projects">
+                <div id="projects">
+                    <div class="works-heading">
+                        <h3>My Works</h3>
+                    </div>
+                    <div class="works"></div>
+                </div>
+            </section>
+
+
+        <section id="educations">
+            <div id="education">
+                <div class="education-heading">
+                    <h3>Knowledge & Experiences</h1>
+                </div>
+
+                <div class="knowledge-container">
+
+                    <div class="knowledge">
+
+                        <div id="school" class="education">
+                            <h3>School Leaving Certificate</h1>
+                                <p>Learning Realm International</p>
+                                <p>Kalanki, Kathmandu</p>
+                        </div>
+
+                        <div id="+2" class="education">
+                            <h3>+2</h1>
+                                <p>Little Angel's College</p>
+                                <p>Hattiban, Lalitpur</p>
+                        </div>
+
+                        <div id="bachelors" class="education">
+                            <h3>Bachelors</h1>
+                                <p>Kathmandu Engineering College</p>
+                                <p>Kalimati, Kathmandu</p>
+                        </div>
+
+                    </div>
+
+                    <div class="experience">
+
+                        <div class="work-experience">
+                            <h3>Bell Innovation Inc.</h3>
+                            <p>Intern</p>
+                            <p>New Baneshwor, Kathmandu</p>
+                            <p>August 2021 - October 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </section>
+
         </div>
-
-
-
+    
 
     </main>
+
+    <footer id="footers">
+        <div id="footer">
+            <div id="contact-form">
+                
+                <form>
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email"><br>
+                    <label for="subject">Subject</label><br>
+                    <textarea id="subject" name="subject" placeholder="Write a Message.."></textarea>
+                    <input type="submit" value="Submit">
+
+                  </form>
+            </div>
+
+            <div id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">My Work</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="contact">
+                <div id="contact-content">
+                    <p>Email:panerusushant@gmail.com</p>
+                    <p><a href="">LinkediIn</a></p>
+                    <p><a href="https://twitter.com/PaneruSushant">twitter</a></p>
+                </div>
+                
+            </div>
+
+
+            <div id="copy">
+                <h4> &copy; Sushant Paneru</h4>
+            </div>
+
+        </div>
+    </footer>
 </body>
 
 </html>
