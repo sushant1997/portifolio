@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#" ]').forEach(anchor =>{
 
 let fname = document.getElementById('fname')
 let form = document.getElementById('form')
-let lname = document.getElementById('lname')
+
 let errorElement = document.getElementById('errors')
 
 
@@ -19,7 +19,7 @@ form.addEventListener('submit',(e) => {
     if(fname.value === '' || fname.value == null){
         messages.push('First Name and Last Name is required.')
     }
-    \
+    
 
     if(messages.length > 0){
         e.preventDefault();
