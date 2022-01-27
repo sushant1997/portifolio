@@ -8,11 +8,20 @@ document.querySelectorAll('a[href^="#" ]').forEach(anchor =>{
 });
 
 
-document.getElementById("myBtn").addEventListener("click", myFunction);
+const fname = document.getElementById('fname')
+const lname = document.getElementById('lname')
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
 
 
-const myFunction = () =>{
-    document.getElementById("footers").scrollIntoView({
-        behavior : "smooth"
-    });
-}
+form.addEventListener('submit',(e) => {
+    let messages = []
+    if((fname.value === '' || fname.value == null )&& (lname.value === '' ||  lname.value == null)){
+        messages.puse('First Name and Last Name is required.')
+    }
+
+    if(messages.length > 0){
+        e.preventDefault();
+        errerElement.innerText = message.json(',')
+    }
+})
