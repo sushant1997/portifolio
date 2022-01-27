@@ -6,3 +6,13 @@ document.querySelectorAll('a[href^="#" ]').forEach(anchor =>{
         });
     });
 });
+
+
+document.getElementById("myBtn").addEventListener("click", myFunction);
+
+
+const myFunction = () =>{
+    document.getElementById("footers").scrollIntoView({
+        behavior : "smooth"
+    });
+}
