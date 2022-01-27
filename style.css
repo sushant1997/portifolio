@@ -620,3 +620,14 @@ font-size: 1em;
 #dropdown4:hover .dropdown-content {
     display: block;
 }
+
+
+#btn2{
+    
+    width: 30%;
+    height: 4vh;
+    border-radius: 8px;
+    margin-left: 30%;
+    background-color: white;
+    
+}
