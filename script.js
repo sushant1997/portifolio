@@ -8,20 +8,22 @@ document.querySelectorAll('a[href^="#" ]').forEach(anchor =>{
 });
 
 
-const fname = document.getElementById('fname')
-const lname = document.getElementById('lname')
-const form = document.getElementById('form')
-const errorElement = document.getElementById('errors')
+let fname = document.getElementById('fname')
+let form = document.getElementById('form')
+let lname = document.getElementById('lname')
+let errorElement = document.getElementById('errors')
 
 
 form.addEventListener('submit',(e) => {
     let messages = []
-    if((fname.value === '' || fname.value == null )&& (lname.value === '' ||  lname.value == null)){
-        messages.puse('First Name and Last Name is required.')
+    if(fname.value === '' || fname.value == null){
+        messages.push('First Name and Last Name is required.')
     }
+    \
 
     if(messages.length > 0){
         e.preventDefault();
-        errerElement.innerText = message.json(',')
+        errorElement.innerText = messages.join(',')
     }
 })
+
