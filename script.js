@@ -11,7 +11,7 @@ document.querySelectorAll('a[href^="#" ]').forEach(anchor =>{
 const fname = document.getElementById('fname')
 const lname = document.getElementById('lname')
 const form = document.getElementById('form')
-const errorElement = document.getElementById('error')
+const errorElement = document.getElementById('errors')
 
 
 form.addEventListener('submit',(e) => {
